@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity"
+    android:rowCount="5"
+    android:columnCount="2"
+    android:background="#EBE6E6"
+    >
+
+    <TextView
+        android:layout_columnSpan="2"
+        android:drawableLeft="@drawable/cancel"
+        android:drawableRight="@drawable/lives"
+        android:text="                                                                                    "
+        />
+
+    <TextView
+            android:layout_columnSpan="2"
+            android:text="Who is the Duck?"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:layout_rowSpan=""
+        android:drawableTop="@drawable/b1"
+        android:text=" Pig"
+        android:padding="20dp"
+        android:textSize="30dp"
+        android:background="@drawable/redondeado"
+        android:backgroundTint="#2222"
+        android:layout_gravity="right"
+        android:drawableLeft="@drawable/radio"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:drawableTop="@drawable/b2"
+        android:text=" Duck"
+        android:padding="20dp"
+        android:textSize="30dp"
+        android:background="@drawable/redondeado"
+        android:backgroundTint="#2222"
+        android:layout_gravity="right"
+        android:drawableLeft="@drawable/radio"
+
+        />
+
+    <TextView
+        android:drawableTop="@drawable/b3"
+        android:text="  Carrot"
+        android:padding="20dp"
+        android:textSize="30dp"
+        android:background="@drawable/redondeado"
+        android:backgroundTint="#2222"
+        android:layout_gravity="right"
+        android:drawableLeft="@drawable/radio"
+
+        />
+
+    <TextView
+        android:drawableTop="@drawable/b4"
+        android:text="  Owl"
+        android:padding="20dp"
+        android:textSize="30dp"
+        android:background="@drawable/redondeado"
+        android:backgroundTint="#2222"
+        android:layout_gravity="right"
+        android:drawableLeft="@drawable/radio"
+
+        />
+
+    <Button
+        android:layout_columnSpan="2"
+        android:text="Check"
+        android:padding="30"
+        android:layout_width="match_parent"
+        android:background="@drawable/redondeado"
+        android:backgroundTint="#2222"
+        android:layout_marginTop="20"
+        />
+
+</GridLayout>

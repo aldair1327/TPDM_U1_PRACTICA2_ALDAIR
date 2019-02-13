@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main3Activity"
+    android:background="#330033"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titulo"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:drawableRight="@drawable/options"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:background="@drawable/redondeado"
+        android:backgroundTint="@color/azul"
+        android:drawableLeft="@drawable/icono1"
+        android:text="Youtube"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:drawableLeft="@drawable/icono2"
+        android:textSize="20dp"
+        android:text="twitter"
+        android:background="@drawable/redondeado"
+        android:backgroundTint="@color/naranja"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:drawableLeft="@drawable/icono3"
+        android:text="Skype"
+        android:textSize="20dp"
+        android:background="@drawable/redondeado"
+        android:backgroundTint="@color/rojo"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:drawableLeft="@drawable/icono4"
+        android:text="Google"
+        android:textSize="20dp"
+        android:background="@drawable/redondeado"
+        android:backgroundTint="@color/verde"
+        android:layout_margin="5dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tools"
+
+        />
+
+
+
+</LinearLayout>
